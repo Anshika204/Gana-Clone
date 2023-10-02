@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(164, 164, 164);
+}
+nav
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+.logo img
+{
+    width: 44px;
+    height: 44px;
+} 
+.logo
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+li
+{
+    padding: 7px;
+}
+.Bottom
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.container
+{
+    min-height: 72vh; /*75vh-75% of height*/
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: url('image/backbg.jpg');
+}
+#myprogress
+{
+    width: 1200px;
+    cursor: pointer;
+}
+.icons i
+{
+    padding: 5px;
+    cursor: pointer;
+}
+.icons
+{
+    margin-top: 5px;
+}
+.song_Container
+{
+    margin-top: 40px;
+}
+.songItem
+{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 50%;
+    color: black;
+    border-radius: 34px ;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+.songItem img
+{
+    width: 45px;
+    height: 45px;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+.timest
+{
+    margin: 0 9px;
+}
+.song_inform
+{
+    position: absolute;
+    left: 162px;
+    top: 43px;
+}
+.song_inform img
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#gif1
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
